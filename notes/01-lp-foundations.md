@@ -99,3 +99,13 @@ LP、SDP 和 MILP 的共同对象不是某个具体求解器，而是：
 4. MILP 相比 LP 改变了什么？
 5. 为什么 MILP 求解器仍然高度依赖 LP？
 
+## Sources
+
+- BertsimasTsitsiklis1997: geometry of polyhedra, extreme points, and basic
+  feasible solutions.
+- BoydVandenberghe2004: convex sets, supporting hyperplanes, and the
+  optimization viewpoint used to connect LP with conic programming.
+
+The examples and wording in this note are an original pedagogical
+reorganization for this repository; the underlying definitions and geometric
+claims should be checked against the cited sources.
