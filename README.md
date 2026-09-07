@@ -24,8 +24,14 @@
 ```text
 .
 ├── README.md
+├── AGENTS.md               # 给后续课程编写和维护使用的来源规则
 ├── ROADMAP.md
 ├── pyproject.toml
+├── references/             # 经典教材、论文、链接和 BibTeX
+│   ├── README.md
+│   ├── core-textbooks.md
+│   ├── core-papers.md
+│   └── bibliography.bib
 ├── notes/                 # 课程笔记与推导
 │   └── 01-lp-foundations.md
 ├── problems/              # 手推题与复习清单
@@ -45,9 +51,10 @@ python -m experiments.lp_geometry
 第一周建议先阅读：
 
 1. [`ROADMAP.md`](ROADMAP.md)
-2. [`notes/01-lp-foundations.md`](notes/01-lp-foundations.md)
-3. [`problems/week-01.md`](problems/week-01.md)
-4. 运行 [`experiments/lp_geometry.py`](experiments/lp_geometry.py)
+2. [`references/README.md`](references/README.md)
+3. [`notes/01-lp-foundations.md`](notes/01-lp-foundations.md)
+4. [`problems/week-01.md`](problems/week-01.md)
+5. 运行 [`experiments/lp_geometry.py`](experiments/lp_geometry.py)
 
 ## 学习约定
 
@@ -60,3 +67,4 @@ python -m experiments.lp_geometry
 
 后续每次学习，我们会在仓库中加入一小块内容，并通过推导、实验或复盘把它和已有内容连接起来。
 
+新的学习资料会先查阅 `references/` 中的教材和论文，再整理成适合当前阶段的解释、手推题和实验；参考来源会记录在每份正式笔记的 `Sources` 部分。
